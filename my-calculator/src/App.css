@@ -1,0 +1,34 @@
+* {
+  font-family: sans-serif;
+}
+
+.App {
+  margin: 20px;
+  padding: 20px;
+}
+
+.action-buttons button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  padding: 10px;
+  margin: 5px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.action-buttons button:nth-last-child(2),
+.action-buttons button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
