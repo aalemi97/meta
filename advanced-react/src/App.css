@@ -1,0 +1,29 @@
+* {
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+  background-color: #efe2ba;
+  height: 100vh;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: #4056a1;
+  padding: 20px;
+}
+
+nav .nav-item {
+  color: #efe2ba;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+nav .nav-item:hover {
+  color: #d79922;
+}
